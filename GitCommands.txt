@@ -1,0 +1,13 @@
+Initialising Git repo from our local machine.
+
+Git init -- Init command is used to initialise our local folder as a git repo.
+
+After running this command, an empty git repo would be initialised.
+Now create a git repo in our GitHub account and copy that link and paste it in below cmd
+to link our local repo to remote repo.
+
+git remote add origin <link here>
+
+git remote -v  --> to check the remote repo
+
+git branch --> to get branch name
