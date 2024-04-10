@@ -1,0 +1,23 @@
+This file talks on how to deal with branches in GIT
+
+A branch is nothing but a copy of the code of parent branch.
+Lets say two devs are working on a proj, and they have a lead dev who is working on main branch which
+is used by many customers.
+
+Now for the other devs to work they can't work directly on main, so git allows them to create branches of
+their own work on a feature on those branches and then to merge them they can either raise a PR( pull req)
+or merge via git CLI, if they have access.
+
+Branches are used for above purpose.
+
+Commands on branches :
+
+git branch --> gives the current working branch
+
+git branch -M <enter the name>--> to rename a branch
+
+git checkout <branch name> --> to move from one branch to another
+
+git checkout -b <new branchname> --> to create a branch
+
+git branch -d <branch name> --> to del a branch

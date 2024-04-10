@@ -11,3 +11,6 @@ git remote add origin <link here>
 git remote -v  --> to check the remote repo
 
 git branch --> to get branch name
+
+git branch -M main --> to rename the branch here we need to rename to main because git by default creates
+                       master branch which is now no longer used by git so we need to rename as main.
