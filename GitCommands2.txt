@@ -22,4 +22,4 @@ git checkout -b <new branchname> --> to create a branch
 
 git branch -d <branch name> --> to del a branch
 
-git merge <branch name>
+git merge <branch name> --> lets say we have to merge branch1 to main, switch to main, run the cmd giving branch1 as branch name
