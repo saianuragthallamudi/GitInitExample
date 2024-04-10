@@ -21,3 +21,5 @@ git checkout <branch name> --> to move from one branch to another
 git checkout -b <new branchname> --> to create a branch
 
 git branch -d <branch name> --> to del a branch
+
+git merge <branch name>
